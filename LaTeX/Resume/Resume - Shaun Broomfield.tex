@@ -30,7 +30,7 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.43\textwidth} % 45% of the page width for name
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% If your name is very short, use just one of the lines below
@@ -49,8 +49,8 @@
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
 	\icon{MapMarker}{12}{Hartlepool, England}\\
-	\icon{Phone}{12}{+44 7714825052}\\
-	\icon{At}{12}{\href{mailto:contact@shaunbroomfield.com}{contact@shaunbroomfield.com}}\\	
+	\icon{At}{12}{\href{mailto:contact@shaunbroomfield.com}{contact@shaunbroomfield.com}}\\
+	\icon{Phone}{12}{+44 7714825052}\\	
 \end{minipage}
 \begin{minipage}[t]{0.24\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
@@ -58,8 +58,8 @@
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
 	\icon{Globe}{12}{\href{https://shaunbroomfield.com/}{ShaunBroomfield.com}}\\
-	\icon{Github}{12}{\href{https://github.com/Broomfields}{Broomfields}}\\
 	\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/shaunbroomfield/}{ShaunBroomfield}}\\
+	\icon{Github}{12}{\href{https://github.com/Broomfields}{Broomfields}}\\
 \end{minipage}
 
 \vspace{0.5cm}
@@ -68,16 +68,26 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Who Am I?}
+\begin{minipage}[t]{0.6\textwidth} % 40% of the page width for the introduction text
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Who Am I?}
+
+	I'm a full-stack Software Engineer with a predominant background in developing SCADA software for the Windows operating system. My deep-rooted expertise is within the Microsoft ecosystem, leveraging tools like C, C++, C++/CLI, SQL Server, MFC, and .NET Framework.
+
+	\vspace{0.5cm}	
+
+	Currently, my professional role involves crafting a SCADA software product that embodies a Micro-Services-like architecture on the Windows platform. This sophisticated system comprises hundreds of intertwined programs, drivers, and services that synchronise seamlessly. Their collaboration relies on data-modules, queues, stacks, pools, and an integration of both relational and non-relational databases, ultimately furnishing a comprehensive SCADA solution across one or multiple Windows machines.
 	
-	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+	\vspace{0.5cm}	
+
+	Outside of my professional realm, I possess a broad curiosity for various programming fields. While I have some experience tinkering in web and app development, my primary personal pursuits revolve around systems-level languages, libraries, and frameworks. This has led me to explore the intricacies of graphics programming, physics programming, embedded systems, and other related computing arenas.
+
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Programming Language Experience}
+
 	\begin{barchart}{5.5}
 		\baritem{C}{60}
 		\baritem{C++}{80}
@@ -90,17 +100,24 @@
 		\baritem{Markdown}{40}
 		\baritem{LaTeX}{20}
 	\end{barchart}
+
 \end{minipage}
 
+\cvsect{Platform Development Experience}
 \begin{center}
 	\spacedbubbles{6/Windows Development, 6/.NET Framework, 5/MFC, 4/Win32}
 \end{center}
+
+%\cvsect{Tools Experience}
+%\begin{center}
+%	\spacedbubbles{6/VS Code, 6/Visual Studio, 5/Source Safe, 4/WSL}
+%\end{center}
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+\cvsect{Career}
 
 \begin{entrylist}
 	\entry
@@ -279,19 +296,24 @@
 \begin{entrylist}
 	\entry
 		{Ashley Tizard}
-		{<Insert Reference Header>}
-		{Managing Director - Tascomp}
-		{<Insert Reference Text>}
+		{Managing Director}
+		{Tascomp Limited}
+		{\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/ashley-tizard}{Ashley-Tizard}}\\}
 	\entry
-		{<Insert Name>}
-		{<Insert Reference Header>}
-		{<Insert Role and Company>}
-		{<Insert Reference Text>}
+		{Steven Tilly}
+		{Lead Software Development Engineer}
+		{Tascomp Limited}
+		{\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/steven-tilly-8282141a/}{Steven-Tilly-8282141a}}\\}
 	\entry
-		{<Insert Name>}
-		{<Insert Reference Header>}
-		{<Insert Role and Company>}
-		{<Insert Reference Text>}
+		{George Priestner}
+		{Senior Software Engineer}
+		{Eaton}
+		{\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/george-p-5aa9385a/}{George-P-5aa9385a}}\\}
+	\entry
+		{Rhys Maddren}
+		{Graduate Developer}
+		{Sage}
+		{\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/rhys-maddren-133a7b151/}{Rhys-Maddren-133a7b151/}}\\}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
