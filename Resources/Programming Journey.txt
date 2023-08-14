@@ -1,0 +1,13 @@
+I would like to tell a brief story on my journey in programming.
+
+<lua>
+I was first introduced to it when playing modded minecraft in 2012 when I started interacting with a mod called ComputerCraft. ComputerCraft is a mod that implements DOS-like computers into Minecraft using lua, you can create and run programs on these computers in lua.
+
+<Visual Basic>
+Early in secondary school I was exposed to several graphical programming languages where you would drag and drop components to build a script; however about a year or two into secondary school, I was introduced to Visual Basic, where I experimented with console-based conversational trees. 
+
+<Python>
+During the GCSE period at secondary school I was introduced to Python 2.7 in my computer science class.
+
+<C#, >
+About a week after finishing secondary school I started my first apprenticeship. In the college side of the apprenticeship I learned
