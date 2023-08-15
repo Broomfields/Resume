@@ -1,0 +1,9 @@
+My journey into the realm of programming is both varied and profound. It all began in an unusual setting – the world of Minecraft. In 2012, I delved into the modded universe of this game and encountered a mod named ComputerCraft. This unique mod incorporated DOS-like computers within the Minecraft environment and provided me with my first taste of coding through Lua. Through this mod, players could craft and run programs, an experience which set the foundation for my ensuing endeavours in software development.
+
+My educational voyage further enriched my understanding of the subject. During my early years in secondary school, I dabbled with various graphical programming languages, where the essence was to construct scripts by dragging and dropping components. However, it was soon thereafter, still within the confinements of secondary school, that I was introduced to Visual Basic. Here, I embarked on a journey to design console-based conversational trees, allowing me to better understand the logic and flow of interactive applications.
+
+As I progressed through my GCSEs
+
+
+
+

@@ -1,0 +1,17 @@
+My Journey in Programming: A Brief Overview
+
+Lua with ComputerCraft: My initiation into the world of programming began in 2012, thanks to Minecraft. I delved into modded Minecraft and stumbled upon ComputerCraft, a mod that ingeniously incorporated DOS-like computers within the game. Fascinatingly, these virtual computers were programmable using Lua, enabling me to create and execute my first programs.
+
+Visual Basic in Secondary School: Early in my secondary school days, I was introduced to a few graphical programming languages. These primarily consisted of drag-and-drop interfaces designed for script construction. However, the real intrigue came a couple of years later, when I encountered Visual Basic. Here, I embarked on creating console-based conversational trees, deepening my understanding of logical flows and interactivity.
+
+Python during GCSEs: My GCSE years in secondary school marked another milestone in my programming journey. I was introduced to Python 2.7 in my computer science class, which further refined my programming skills and expanded my knowledge of software development principles.
+
+C# and Beyond in Apprenticeship: Upon completing secondary school, I wasted no time and immediately began my first apprenticeship. The academic facet of this apprenticeship acquainted me with C# among other languages, enriching my repertoire and preparing me for the myriad challenges and innovations in the tech industry.
+
+I hope this helps! If you'd like any further adjustments or additions, please let me know.
+
+
+
+
+
+
