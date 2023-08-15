@@ -42,6 +42,10 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
+\usepackage{ifthen}
+
+\RequirePackage{accsupp}
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
@@ -92,7 +96,9 @@
 %---------------------------------------------------------------------------------------- 
 
 \usepackage{tikz} % Required for creating the plots
+\usetikzlibrary{arrows}
 \usetikzlibrary{shapes, backgrounds}
+% \usetikzlibrary{arrows}
 \tikzset{x=1cm, y=1cm} % Default tikz units
 
 % Command to vertically centre adjacent content
@@ -101,6 +107,15 @@
 		\setbox0=\hbox{#1}\parbox{\wd0}{\box0}%
 	\endgroup%
 }
+
+\colorlet{accent}{blue!70!black}
+\colorlet{emphasis}{black}
+\colorlet{heading}{black}
+\colorlet{headingrule}{black}
+\colorlet{subheading}{emphasis}
+\colorlet{body}{black!80!white}
+\colorlet{name}{heading}
+\colorlet{tagline}{accent}
 
 %----------------------------------------------------------------------------------------
 %	CHARTS
@@ -137,6 +152,145 @@
 }{
 	\end{tikzpicture}
 }
+
+
+%------------------------------------------------
+
+
+% Adapted from @Jake's answer at http://tex.stackexchange.com/a/82729/226
+\newcommand{\wheelchart}[4][0]{%
+    \begingroup\centering
+    \def\innerradius{#3}%
+    \def\outerradius{#2}%
+    % Calculate total
+    \pgfmathsetmacro{\totalnum}{0}%
+    \foreach \value/\colour/\name in {#4} {%
+        \pgfmathparse{\value+\totalnum}%
+        \global\let\totalnum=\pgfmathresult%
+    }%
+    \begin{tikzpicture}
+
+      % Calculate the thickness and the middle line of the wheel
+      \pgfmathsetmacro{\wheelwidth}{\outerradius-\innerradius}
+      \pgfmathsetmacro{\midradius}{(\outerradius+\innerradius)/2}
+      \pgfmathsetmacro{\totalrot}{-90 + #1}
+
+      % Rotate so we start from the top
+      \begin{scope}[rotate=\totalrot]
+
+      % Loop through each value set. \cumnum keeps track of where we are in the wheel
+      \pgfmathsetmacro{\cumnum}{0}
+      \foreach \value/\width/\colour/\name in {#4} {
+            \pgfmathsetmacro{\newcumnum}{\cumnum + \value/\totalnum*360}
+
+            % Calculate the percent value
+            \pgfmathsetmacro{\percentage}{\value/\totalnum*100}
+            % Calculate the mid angle of the colour segments to place the labels
+            \pgfmathsetmacro{\midangle}{-(\cumnum+\newcumnum)/2}
+
+            % This is necessary for the labels to align nicely
+            \pgfmathparse{
+               (-\midangle>180?"west":"east")
+            } \edef\textanchor{\pgfmathresult}
+            \pgfmathparse{
+               (-\midangle>180?"flush left":"flush right")
+            } \edef\textalign{\pgfmathresult}
+            \pgfmathsetmacro\labelshiftdir{1-2*(-\midangle<180)}
+
+            % Draw the color segments. Somehow, the \midrow units got lost, so we add 'pt' at the end. Not nice...
+            \filldraw[draw=white,fill=\colour] (-\cumnum:\outerradius) arc (-\cumnum:-(\newcumnum):\outerradius) --
+            (-\newcumnum:\innerradius) arc (-\newcumnum:-(\cumnum):\innerradius) -- cycle;
+
+            % Draw the data labels
+            % v1.6: Use accsupp so that the numeric number is copied/pasted too
+            \draw  [*-,thin,emphasis] node [append after command={(\midangle:\midradius pt) -- (\midangle:\outerradius + 1ex) -- (\tikzlastnode)}] at (\midangle:\outerradius + 1ex) [xshift=\labelshiftdir*0.5cm,inner sep=1ex, outer sep=0pt, text width=\width,anchor=\textanchor,align=\textalign,font=\small,text=body]{\BeginAccSupp{method=pdfstringdef,ActualText={\name: \value}}\name\EndAccSupp{}};
+            % Set the old cumulated angle to the new value
+            \global\let\cumnum=\newcumnum
+        }
+      \end{scope}
+%      \draw[gray] (0,0) circle (\outerradius) circle (\innerradius);
+    \end{tikzpicture}\par
+    \endgroup
+}
+
+
+%------------------------------------------------
+
+
+%%% Label
+\newcommand{\Label}[2]{% Highlight color, Text
+    \tikz[baseline]\node[anchor=base,draw=#1,rounded corners,inner xsep=1ex,inner ysep =0.75ex,text height=1.5ex,text depth=.25ex, thick]{#2};
+}
+
+
+%------------------------------------------------
+
+
+%%% Spider chart
+% \usepackage{xparse}
+% \newcounter{spidercount}
+% \ExplSyntaxOn
+% \NewDocumentCommand{\newList}{m}
+%  {
+%   \seq_new:c { l_kees_list_#1_seq }
+%  }
+% \NewDocumentCommand{\addToList}{mm}
+%  {
+%   \seq_put_right:cn { l_kees_list_#1_seq } { #2 }
+%  }
+% \NewDocumentCommand{\getFromList}{mm}
+%  {
+%   \seq_item:cn { l_kees_list_#1_seq } { #2 }
+%  }
+% \ExplSyntaxOff
+% \newList{skilllist}
+% \newList{masterlist}
+
+% \newcommand{\addSkill}[2]{ % Skill label, Strenght
+%     \stepcounter{spidercount}
+%     \addToList{skilllist}{#1}
+%     \addToList{masterlist}{#2}
+% }
+
+% \newcounter{var}
+% \newenvironment{SpiderDiagram}[2]{ % Axes color, Highlight color
+%     \def\n{\thespidercount}
+%     \def\N{5}
+%     \def\nC{#1}
+%     \def\hC{#2}
+%     \vspace*{0.15cm}
+% }{
+%     \begin{tikzpicture}[scale=0.35]
+%         \foreach \x in{1,2,...,\n}{
+%             \setcounter{var}{360/\n*\x}
+%             \ifthenelse{\thevar = 180 \OR \thevar = 360}{
+%                 \draw [draw=\nC, very thick] (0,0)--(\thevar:\N) node
+%                 [shift=(\thevar-145:-15pt),
+%                 color=\hC] {\small\getFromList{skilllist}{\x}}
+%             }
+%             {
+%                 \draw [draw=\nC, very thick] (0,0)--(\thevar:\N) node
+%                 [shift=(\thevar:10pt),
+%                 color=\hC] {\small\getFromList{skilllist}{\x}}
+%             }
+%             ;
+%         }
+%         \newcounter{temp}
+%         \newcounter{tempbis}
+%         \foreach[count=\x] \y in{2,3,...,\n}{
+%             \setcounter{temp}{\getFromList{masterlist}{\x}}
+%             \setcounter{tempbis}{\getFromList{masterlist}{\y}}
+%             \draw [draw=\hC,  very thick]
+%                 (360/\n*\x:\thetemp) -- (360/\n*\x+360/\n:\thetempbis);
+%         }
+%         \setcounter{temp}{\getFromList{masterlist}{\n}}
+%         \setcounter{tempbis}{\getFromList{masterlist}{1}}
+%         \draw [draw=\hC,  very thick]
+%             (360:\thetemp) -- (360+360/\n:\thetempbis);
+
+
+%     \end{tikzpicture}
+% }
 
 %------------------------------------------------
 
