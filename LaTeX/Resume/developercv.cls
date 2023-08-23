@@ -44,6 +44,8 @@
 
 \usepackage{ifthen}
 
+\usepackage{pifont}
+
 \RequirePackage{accsupp}
 
 %----------------------------------------------------------------------------------------
@@ -225,74 +227,6 @@
 
 %------------------------------------------------
 
-
-%%% Spider chart
-% \usepackage{xparse}
-% \newcounter{spidercount}
-% \ExplSyntaxOn
-% \NewDocumentCommand{\newList}{m}
-%  {
-%   \seq_new:c { l_kees_list_#1_seq }
-%  }
-% \NewDocumentCommand{\addToList}{mm}
-%  {
-%   \seq_put_right:cn { l_kees_list_#1_seq } { #2 }
-%  }
-% \NewDocumentCommand{\getFromList}{mm}
-%  {
-%   \seq_item:cn { l_kees_list_#1_seq } { #2 }
-%  }
-% \ExplSyntaxOff
-% \newList{skilllist}
-% \newList{masterlist}
-
-% \newcommand{\addSkill}[2]{ % Skill label, Strenght
-%     \stepcounter{spidercount}
-%     \addToList{skilllist}{#1}
-%     \addToList{masterlist}{#2}
-% }
-
-% \newcounter{var}
-% \newenvironment{SpiderDiagram}[2]{ % Axes color, Highlight color
-%     \def\n{\thespidercount}
-%     \def\N{5}
-%     \def\nC{#1}
-%     \def\hC{#2}
-%     \vspace*{0.15cm}
-% }{
-%     \begin{tikzpicture}[scale=0.35]
-%         \foreach \x in{1,2,...,\n}{
-%             \setcounter{var}{360/\n*\x}
-%             \ifthenelse{\thevar = 180 \OR \thevar = 360}{
-%                 \draw [draw=\nC, very thick] (0,0)--(\thevar:\N) node
-%                 [shift=(\thevar-145:-15pt),
-%                 color=\hC] {\small\getFromList{skilllist}{\x}}
-%             }
-%             {
-%                 \draw [draw=\nC, very thick] (0,0)--(\thevar:\N) node
-%                 [shift=(\thevar:10pt),
-%                 color=\hC] {\small\getFromList{skilllist}{\x}}
-%             }
-%             ;
-%         }
-%         \newcounter{temp}
-%         \newcounter{tempbis}
-%         \foreach[count=\x] \y in{2,3,...,\n}{
-%             \setcounter{temp}{\getFromList{masterlist}{\x}}
-%             \setcounter{tempbis}{\getFromList{masterlist}{\y}}
-%             \draw [draw=\hC,  very thick]
-%                 (360/\n*\x:\thetemp) -- (360/\n*\x+360/\n:\thetempbis);
-%         }
-%         \setcounter{temp}{\getFromList{masterlist}{\n}}
-%         \setcounter{tempbis}{\getFromList{masterlist}{1}}
-%         \draw [draw=\hC,  very thick]
-%             (360:\thetemp) -- (360+360/\n:\thetempbis);
-
-
-%     \end{tikzpicture}
-% }
-
-%------------------------------------------------
 
 \newcounter{a}
 \newcounter{b}
