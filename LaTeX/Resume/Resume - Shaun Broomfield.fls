@@ -330,6 +330,7 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomeone.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-t1.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
 INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -342,12 +343,11 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/impallari/raleway/Raleway-Regular-tlf-t1.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-t1--base.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-t1.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Bold-tlf-t1--base.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-t1.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/impallari/raleway/Raleway-Regular-tlf-t1.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/impallari/raleway/Raleway-Regular-tlf-t1--base.tfm
 INPUT Resume - Shaun Broomfield.aux
 INPUT ./Resume - Shaun Broomfield.out
 INPUT ./Resume - Shaun Broomfield.out

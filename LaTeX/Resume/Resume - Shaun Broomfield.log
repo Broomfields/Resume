@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  23 AUG 2023 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  23 AUG 2023 13:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,160 +757,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 125.
+(Font)              scaled to size 7.0pt on input line 111.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 111.
 
-Overfull \hbox (49.90263pt too wide) in paragraph at lines 93--128
-[][]  [] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 148--149
-\T1/Raleway-TLF/m/n/9 in an of-fice, work-ing from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 150--151
-[]\T1/Raleway-TLF/m/n/9 As long as my com-mute
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 150--151
-\T1/Raleway-TLF/m/n/9 doesn't take 2+ hours, I'm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-Overfull \hbox (1.52998pt too wide) in paragraph at lines 135--172
-[][]  [] 
  []
 
 [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 194--195
+\T1/Raleway-TLF/m/n/9 in an of-fice, work-ing from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 198.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 198.
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-
- []
-
+(Font)              scaled to size 8.0pt on input line 215.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Overfull \hbox (1.19572pt too wide) in paragraph at lines 369--369
+Overfull \hbox (1.19572pt too wide) in paragraph at lines 339--339
 []$[]$ $[]$ 
  []
 
@@ -923,15 +873,15 @@ Package rerunfilecheck Info: File `"Resume - Shaun Broomfield".out' has not chan
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25058 strings out of 475189
- 487293 string characters out of 5767835
- 1958248 words of memory out of 5000000
- 45901 multiletter control sequences out of 15000+600000
+ 24927 strings out of 475189
+ 484780 string characters out of 5767835
+ 1946248 words of memory out of 5000000
+ 45770 multiletter control sequences out of 15000+600000
  683688 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,634b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,634b,1329s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "Resume - Shaun Broomfield.pdf" (3 pages, 78451 bytes).
+Output written on "Resume - Shaun Broomfield.pdf" (3 pages, 76309 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
