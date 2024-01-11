@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  11 JAN 2024 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  11 JAN 2024 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Nexus/Files/Resume/LaTeX/Resume/Resume - Shaun Broomfield.tex"
-(d:/Nexus/Files/Resume/LaTeX/Resume/Resume - Shaun Broomfield.tex
+**"d:/Nexus/Files/Resume/LaTeX/Resume/References - Shaun Broomfield.tex"
+(d:/Nexus/Files/Resume/LaTeX/Resume/References - Shaun Broomfield.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (./developercv.cls
@@ -629,8 +629,8 @@ LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box89
-) (./Resume - Shaun Broomfield.aux)
-\openout1 = `"Resume - Shaun Broomfield.aux"'.
+) (./References - Shaun Broomfield.aux)
+\openout1 = `"References - Shaun Broomfield.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -657,9 +657,9 @@ File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
 LaTeX Font Info:    ... okay on input line 27.
 Package hyperref Info: Link coloring OFF on input line 27.
- (./Resume - Shaun Broomfield.out) (./Resume - Shaun Broomfield.out)
+ (./References - Shaun Broomfield.out) (./References - Shaun Broomfield.out)
 \@outlinefile=\write4
-\openout4 = `"Resume - Shaun Broomfield.out"'.
+\openout4 = `"References - Shaun Broomfield.out"'.
 
 
 *geometry* driver: auto-detecting
@@ -750,89 +750,64 @@ Overfull \hbox (12.736pt too wide) in paragraph at lines 33--64
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 73.
+(Font)              scaled to size 9.0pt on input line 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 112.
+(Font)              scaled to size 7.0pt on input line 87.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 112.
+(Font)              scaled to size 7.0pt on input line 87.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+
+ []
+
+
+Overfull \hbox (1.19572pt too wide) in paragraph at lines 115--115
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-
- []
-
-[2] (./Resume - Shaun Broomfield.aux)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}] (./References - Shaun Broomfield.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-Package rerunfilecheck Info: File `"Resume - Shaun Broomfield".out' has not changed.
+Package rerunfilecheck Info: File `"References - Shaun Broomfield".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24585 strings out of 474267
- 478364 string characters out of 5751464
- 1952558 words of memory out of 5000000
- 46348 multiletter control sequences out of 15000+600000
+ 24578 strings out of 474267
+ 478359 string characters out of 5751464
+ 1940558 words of memory out of 5000000
+ 46344 multiletter control sequences out of 15000+600000
  670076 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,596b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "Resume - Shaun Broomfield.pdf" (2 pages, 71369 bytes).
+ 117i,11n,121p,472b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
+Output written on "References - Shaun Broomfield.pdf" (1 page, 61914 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
