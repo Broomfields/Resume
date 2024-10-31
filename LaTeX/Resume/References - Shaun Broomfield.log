@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.10)  27 OCT 2024 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.10)  31 OCT 2024 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -786,7 +786,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 
  []
 
@@ -801,17 +821,17 @@ Package rerunfilecheck Info: File `"References - Shaun Broomfield".out' has not 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24589 strings out of 475248
- 484157 string characters out of 5757813
- 1933785 words of memory out of 5000000
- 45668 multiletter control sequences out of 15000+600000
+ 24591 strings out of 475248
+ 484169 string characters out of 5757813
+ 1941785 words of memory out of 5000000
+ 45669 multiletter control sequences out of 15000+600000
  670076 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,472b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sbroo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/sbroo/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/raleway/Raleway-Bold.pfb><C:/Users/sbroo/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on "References - Shaun Broomfield.pdf" (1 page, 67938 bytes).
+Output written on "References - Shaun Broomfield.pdf" (1 page, 71340 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
